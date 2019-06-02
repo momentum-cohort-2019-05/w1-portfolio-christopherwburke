@@ -16,6 +16,7 @@
     padding: 5px;
     margin-right: 5px;
     max-width: 100%;
+    border: solid;
 }
 
 .header-container a {
@@ -99,11 +100,32 @@
 #projects {
     background-color:#4B9CD3;
     color: white;
+    font-size: 30px;
 }
 
-/* #contact-me {
+.projects-paragraphs {
+    font-size: 16px;
+    text-align: left;
+    padding: 10px;
+}
 
-} */
+.projects-paragraphs li {
+    padding: 10px;
+}
+
+.projects-paragraphs a {
+    color: white;
+}
+
+#projects p{
+    text-align: left;
+    font-size: 16px;
+    
+}
+
+#contact-me {
+    font-size: 30px;
+}
 
 img {
 	max-width: 100%;
