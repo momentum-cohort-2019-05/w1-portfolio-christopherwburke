@@ -13,6 +13,8 @@
     line-height: 25px;
     background-color: navy;
     text-transform: uppercase;
+    padding: 5px;
+    margin-right: 5px;
 }
 
 .header-container a {
@@ -27,26 +29,26 @@
 
 .header-name {
     flex-grow: 2;
+    font-size: 20px;
     color: white;
-
 }
 
 .intro {
     background-color:#4B9CD3;
     color: white;
-    height: 350px;
+    height: 200px;
 }
 
-.linkedin-button {
+/* .linkedin-button {
+    
    
-}
+} */
 
 .main-container {
     display: flex;
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    text-transform: uppercase;
 }
 
 /* .main-item {
@@ -67,15 +69,24 @@
     color: white;
 }
 
-#about-me {
+.about-me-paragraphs {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
 
+#about-me {
+    
 }
 
 #projects {
-background-color:#4B9CD3;
-color: white;
+    background-color:#4B9CD3;
+    color: white;
 }
 
-#contact-me {
+/* #contact-me {
+} */
 
+img {
+	max-width: 100%;
 }
