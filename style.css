@@ -7,13 +7,17 @@
 
 .header-container {
     display: flex;
+    font-size: 15px;
+    font-weight: 600;
     justify-content: center;
+    line-height: 25px;
     background-color: navy;
     text-transform: uppercase;
 }
 
 .header-container a {
     color: white;
+    margin-left: 10px;
 }
 
 .header-item {
@@ -27,9 +31,10 @@
 
 }
 
-.intro-text {
+.intro {
     background-color:#4B9CD3;
     color: white;
+    height: 350px;
 }
 
 .linkedin-button {
@@ -49,8 +54,7 @@
 } */
 
 .profile-photo {
-    background-color:#4B9CD3;
-    color: white;
+    height: 100px;
 }
 
 .footer-container {
